@@ -21,6 +21,11 @@
 		to your new<br />SvelteKit app
 	</h1>
 
+	<form method="POST" enctype="multipart/form-data">
+		<input type="file" name="file" id="file">
+		<button type="submit">submit big file</button>
+	</form>
+
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
